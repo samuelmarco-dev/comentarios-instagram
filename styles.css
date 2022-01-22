@@ -1,0 +1,70 @@
+.comentarios{
+    width: 614px;
+    margin: 100px auto;
+    /* background-color: blue; */
+    background-color: #FFFFFF;
+    border: 2px solid salmon;
+}
+
+.comentarios-postados, .quero-comentar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    /* background-color: chartreuse; */
+}
+
+.comentarios{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 16px;
+}
+
+.esquerda strong{
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.esquerda p{
+    font-weight: 300;
+    padding-left: 8px;
+}
+
+.comentarios-postados .esquerda, .comentarios-postados .direita{
+    display: flex;
+}
+
+.esquerda img, .esquerda-comentar img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.direita ion-icon{
+    width: 18px;
+    height: 18px;
+    padding-right: 8px;
+}
+
+.quero-comentar{
+    /* background-color: crimson; */
+    margin-top: 4px;
+}
+
+.esquerda-comentar{
+    display: flex;
+}
+
+.esquerda-comentar input{
+    width: 500px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.publicar strong{
+    padding-right: 8px;
+    color: #6bc0f8;
+    font-weight: 500;
+}
